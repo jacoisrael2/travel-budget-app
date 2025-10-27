@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "🔹 Clonando repositório da aplicação..."
-                git credentialsId: 'github-creds', url: 'https://github.com/jacoisrael2/travel_budget_app.git', branch: 'main'
+                git credentialsId: 'github-creds', url: 'https://github.com/jacoisrael2/travel-budget-app.git', branch: 'main'
             }
         }
 
