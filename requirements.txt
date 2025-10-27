@@ -1,0 +1,13 @@
+streamlit
+streamlit-authenticator
+sqlalchemy
+psycopg2-binary
+pandas
+plotly
+fpdf
+openpyxl
+alembic
+fastapi
+uvicorn
+python-dotenv
+
